@@ -1,0 +1,112 @@
+*{
+    background-color: rgb(226, 183, 126);
+    font-size: 30px;
+}
+.body{
+    margin: 0;
+    
+}
+
+div h1{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.middle{
+    background-color: rgb(118, 118, 206);
+    display: block;
+    width: 400px;
+    margin-left:35% ;
+    font-family: cursive;
+}
+div{
+    border-radius: 10px;
+    
+}
+.top{
+background-color: tomato;
+display: flex;
+height: 50px;
+width: 400px;
+margin-top:50px ;
+margin-left:35% ;
+color: rgb(247, 104, 52);
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+}
+.top:hover{
+    background-color: darkgoldenrod;
+    color: rgb(255, 255, 255);
+}
+.end{
+    background-color: rgb(255, 145, 0);
+    /* display: flex; */
+    /* min-height: 100vh; */
+    width: 400px;
+    margin-top: 25px;
+    margin-left:35% ;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 51, 0);
+    text-align: center;
+    display: block;
+    
+}
+.end p{
+    background-color: rgb(245, 155, 0);
+    border-radius: 10px;
+}
+
+#sub{
+    color: rgb(252, 252, 252);
+    background-color: tomato;
+    border-radius: 10px;
+    
+}
+#sub:hover{
+    background-color:gold;
+    color: black;
+}
+#task{
+    border-radius: 7px;
+    color: rgb(245, 245, 245);
+}
+input[type="checkbox"]{
+    margin: 10px;
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+}
+input:checked+p{
+    text-decoration:line-through;
+    color:rgb(249, 230, 230);
+    font-family:'Courier New', Courier, monospace;
+}
+::placeholder{
+    color: antiquewhite;
+    background-color: rgb(52, 44, 29);
+    font-family: monospace;
+}
+#task:hover{
+   background-color: rgb(230, 154, 99); 
+}
+p{
+    color: black;
+    font-size: 35px;
+    font-family:fantasy;
+    text-align: center;
+    margin: 0;
+}
+ p:hover{
+    color: whitesmoke;
+}
+ p:active{
+    color: rgb(242, 161, 0);
+}
+#foot{
+    margin-top: 20px;
+    margin-right: 25px;
+    color: sienna;
+}
+#foot:hover{
+    color: white;
+}
